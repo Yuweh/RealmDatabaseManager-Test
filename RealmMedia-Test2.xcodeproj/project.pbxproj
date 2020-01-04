@@ -3,16 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		84FEBB61BCFAAD00D6B043AE /* Pods_RealmMedia_Test2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57D481934D70C13611FA7EE /* Pods_RealmMedia_Test2.framework */; };
 		90EB07E923C0992E00516BF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB07E823C0992E00516BF8 /* AppDelegate.swift */; };
 		90EB07EB23C0992E00516BF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB07EA23C0992E00516BF8 /* ViewController.swift */; };
-		90EB07EE23C0992E00516BF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EB07EC23C0992E00516BF8 /* Main.storyboard */; };
 		90EB07F023C0993100516BF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EB07EF23C0993100516BF8 /* Assets.xcassets */; };
 		90EB07F323C0993100516BF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EB07F123C0993100516BF8 /* LaunchScreen.storyboard */; };
+		90EB07FB23C09D7800516BF8 /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB07FA23C09D7800516BF8 /* RealmHelper.swift */; };
+		90EB07FD23C09D8500516BF8 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB07FC23C09D8400516BF8 /* Photo.swift */; };
+		90EB080123C09D9000516BF8 /* UpdatePhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB07FE23C09D8F00516BF8 /* UpdatePhotoVC.swift */; };
+		90EB080223C09D9000516BF8 /* AddPhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB07FF23C09D9000516BF8 /* AddPhotoVC.swift */; };
+		90EB080323C09D9000516BF8 /* PhotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB080023C09D9000516BF8 /* PhotosVC.swift */; };
+		90EB080523C09DAB00516BF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EB080423C09DAB00516BF8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +25,15 @@
 		90EB07E523C0992E00516BF8 /* RealmMedia-Test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RealmMedia-Test2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90EB07E823C0992E00516BF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90EB07EA23C0992E00516BF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		90EB07ED23C0992E00516BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90EB07EF23C0993100516BF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90EB07F223C0993100516BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90EB07F423C0993100516BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90EB07FA23C09D7800516BF8 /* RealmHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
+		90EB07FC23C09D8400516BF8 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		90EB07FE23C09D8F00516BF8 /* UpdatePhotoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatePhotoVC.swift; sourceTree = "<group>"; };
+		90EB07FF23C09D9000516BF8 /* AddPhotoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPhotoVC.swift; sourceTree = "<group>"; };
+		90EB080023C09D9000516BF8 /* PhotosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosVC.swift; sourceTree = "<group>"; };
+		90EB080423C09DAB00516BF8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B57D481934D70C13611FA7EE /* Pods_RealmMedia_Test2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmMedia_Test2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE58364FBBDB5157EBA56026 /* Pods-RealmMedia-Test2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmMedia-Test2.debug.xcconfig"; path = "Target Support Files/Pods-RealmMedia-Test2/Pods-RealmMedia-Test2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,7 +64,6 @@
 				EE58364FBBDB5157EBA56026 /* Pods-RealmMedia-Test2.debug.xcconfig */,
 				38395C2A334C432BE626D75C /* Pods-RealmMedia-Test2.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -79,9 +88,14 @@
 		90EB07E723C0992E00516BF8 /* RealmMedia-Test2 */ = {
 			isa = PBXGroup;
 			children = (
+				90EB07FA23C09D7800516BF8 /* RealmHelper.swift */,
+				90EB07FC23C09D8400516BF8 /* Photo.swift */,
+				90EB080023C09D9000516BF8 /* PhotosVC.swift */,
+				90EB07FF23C09D9000516BF8 /* AddPhotoVC.swift */,
+				90EB07FE23C09D8F00516BF8 /* UpdatePhotoVC.swift */,
 				90EB07E823C0992E00516BF8 /* AppDelegate.swift */,
 				90EB07EA23C0992E00516BF8 /* ViewController.swift */,
-				90EB07EC23C0992E00516BF8 /* Main.storyboard */,
+				90EB080423C09DAB00516BF8 /* Main.storyboard */,
 				90EB07EF23C0993100516BF8 /* Assets.xcassets */,
 				90EB07F123C0993100516BF8 /* LaunchScreen.storyboard */,
 				90EB07F423C0993100516BF8 /* Info.plist */,
@@ -149,9 +163,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90EB080523C09DAB00516BF8 /* Main.storyboard in Resources */,
 				90EB07F323C0993100516BF8 /* LaunchScreen.storyboard in Resources */,
 				90EB07F023C0993100516BF8 /* Assets.xcassets in Resources */,
-				90EB07EE23C0992E00516BF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +218,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90EB07FD23C09D8500516BF8 /* Photo.swift in Sources */,
+				90EB080223C09D9000516BF8 /* AddPhotoVC.swift in Sources */,
+				90EB080323C09D9000516BF8 /* PhotosVC.swift in Sources */,
 				90EB07EB23C0992E00516BF8 /* ViewController.swift in Sources */,
+				90EB07FB23C09D7800516BF8 /* RealmHelper.swift in Sources */,
+				90EB080123C09D9000516BF8 /* UpdatePhotoVC.swift in Sources */,
 				90EB07E923C0992E00516BF8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,14 +231,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		90EB07EC23C0992E00516BF8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				90EB07ED23C0992E00516BF8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		90EB07F123C0993100516BF8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
